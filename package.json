@@ -19,18 +19,33 @@
     "@types/mocha": "^2.2.32",
     "@types/morgan": "^1.7.32",
     "@types/node": "^7.0.0",
+    "@types/mongoose": "^4.7.3",
+    "@types/method-override": "*",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
+
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.1.4",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-tsc": "^1.2.6",
+
     "mocha": "^3.2.0",
     "ts-node": "^2.0.0",
-    "typescript": "^2.1.5"
+    "typescript": "^2.1.5",
+    "clear": "0.0.1",
+    "connect": "^3.5.0",
+    "mongojs": "^2.4.0"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
     "debug": "^2.6.0",
     "express": "^4.14.0",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "mongoose": "^4.7.8",
+    "cors": "^2.8.1",
+    "del": "^2.2.2",
+    "http": "0.0.0",
+    "method-override": "^2.3.7",
+    "superlogin": "^0.6.1"
   }
 }
