@@ -20,6 +20,6 @@ class MiddlewaresBase {
         return app;
     }
 }
-Object.seal(MiddlewaresBase);
 
+Object.seal(MiddlewaresBase);
 export = MiddlewaresBase;

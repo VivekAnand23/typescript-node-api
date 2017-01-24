@@ -9,7 +9,8 @@ class HeroRoutes {
     constructor() {
         this._heroController = new HeroController();
     }
-    get routes() {
+    get routes(): express.Router {
+
         var controller = this._heroController;
         router.get("/heroes", controller.retrieve);
         router.post("/heroes", controller.create);

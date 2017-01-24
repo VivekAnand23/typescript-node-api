@@ -12,4 +12,5 @@ class BaseRoutes {
         return app;
     }
 }
+
 export = BaseRoutes;

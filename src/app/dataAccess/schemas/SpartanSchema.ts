@@ -5,23 +5,23 @@ var mongoose = DataAccess.mongooseInstance;
 var mongooseConnection = DataAccess.mongooseConnection;
 
 class SpartanSchema {
-    
+
     static get schema() {
         var schema = new mongoose.Schema({
-           name: {
-               type: String,
-               required: true
-           },
-           folk: {
-               type: String,
-               required: true
-           },
-           amountPeopleKilled: {
-               type: Number,
-               required: true
-           } 
+            name: {
+                type: String,
+                required: true
+            },
+            folk: {
+                type: String,
+                required: true
+            },
+            amountPeopleKilled: {
+                type: Number,
+                required: true
+            }
         });
-        
+
         return schema;
     }
 }
